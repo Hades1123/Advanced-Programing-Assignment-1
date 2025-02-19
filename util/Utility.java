@@ -27,6 +27,9 @@ public class Utility {
 	 * @return <code>true</code> if <code>num</code> is a square number.
 	 */
 	public static boolean isSquare(int num) {
+		if (num < 0){
+			return false;
+		}
 		int x = (int) Math.sqrt(num);
 		return x*x == num;
 	}

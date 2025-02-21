@@ -38,7 +38,7 @@ class FighterTest {
                 Assertions.assertEquals(myResult, yourResult);
             }
         } catch (IOException e) {
-            System.out.println("T_T");
+            System.out.println("Error reading file");
         }
     }
 }

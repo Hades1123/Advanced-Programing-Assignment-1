@@ -11,6 +11,7 @@ public class Paladin extends Knight {
 		for (int i = 2 ; i < 47; ++ i){
 			fibo[i] = fibo[i-1] + fibo[i-2];
 		}
+
 		for (int i = 3 ; i < 47; ++ i){
 			if (fibo[i] == this.getBaseHp()){
 				return 1000.0 + i;

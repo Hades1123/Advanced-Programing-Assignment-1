@@ -8,7 +8,7 @@ public class Warrior extends Fighter {
                 return false;
             }
         }
-        return x > 2;
+        return x > 1;
     }
     @Override
     public double getCombatScore() {

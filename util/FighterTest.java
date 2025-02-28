@@ -41,4 +41,8 @@ class FighterTest {
             System.out.println("Error reading file");
         }
     }
+
+    @Test
+    @DisplayName("Test1")
+    void test1() {}
 }
